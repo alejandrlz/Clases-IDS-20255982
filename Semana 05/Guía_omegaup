@@ -1,0 +1,20 @@
+días = ["lunes", "martes", "miercoles", "jueves", "viernes"]
+productos = [0,0,0,0,0]
+
+lu= int(input())
+productos[0] = lu
+ma= int(input())
+productos[1] = ma
+mi= int(input())
+productos[2] = mi
+ju= int(input())
+productos[3] = ju
+vi= int(input())
+productos[4] = vi
+
+print(f"El día {días[0].upper()} se vendieron {productos[0]} productos")
+print(f"El día {días[1].upper()} se vendieron {productos[1]} productos")
+print(f"El día {días[2].upper()} se vendieron {productos[2]} productos")
+print(f"El día {días[3].upper()} se vendieron {productos[3]} productos")
+print(f"El día {días[4].upper()} se vendieron {productos[4]} productos")
+print(f"Se vendieron un total de {sum(productos)}")
