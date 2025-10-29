@@ -1,5 +1,5 @@
-valor = int(input())
+valor = float(input())
 
-entero = type(valor) == int
+entero = valor == int(valor)
 
 print(entero)
